@@ -1,3 +1,16 @@
+.clr{
+	background-color:#e14eca;
+	/*background-color:#1d8cf8;*/
+	/*background-color:#25ced1;*/
+}
+#rule{
+	margin-top: 20px;
+	padding-left: 15px;
+}
+
+.rule-content{
+	padding-left : 15px;
+}
 .event_banner{
 	padding-top: 30px;
 }
