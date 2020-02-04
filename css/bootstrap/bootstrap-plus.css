@@ -10505,8 +10505,8 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .navbar .navbar-nav>a.btn.btn-simple:focus,
 .navbar .navbar-nav>a.btn.btn-simple:active,
 .navbar .navbar-nav>a.btn.btn-simple:not(:disabled):not(.disabled):active {
-  color: #344675;
-  border-color: #344675;
+  /*color: #344675;
+  border-color: #344675;*/
   background-color: transparent !important;
   background-image: none !important;
   box-shadow: none;
@@ -10525,8 +10525,8 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .navbar .navbar-nav>a.btn.btn-simple.active:focus,
 .navbar .navbar-nav>a.btn.btn-simple.active:active,
 .navbar .navbar-nav>a.btn.btn-simple.active:not(:disabled):not(.disabled):active {
-  color: #ffffff;
-  border-color: #344675;
+  /*color: #ffffff;
+  border-color: #344675;*/
   background-image: linear-gradient(to bottom left, #344675, #263148, #344675) !important;
   background-image: -webkit-linear-gradient(to bottom left, #344675, #263148, #344675) !important;
   background-image: -o-linear-gradient(to bottom left, #344675, #263148, #344675) !important;
