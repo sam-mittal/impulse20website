@@ -10092,7 +10092,7 @@ a.text-success:focus {
 }
 
 .text-info {
-  color: #1d8cf8 !important;
+  color: #25ced1 !important;
 }
 
 a.text-info:hover,
@@ -10492,8 +10492,8 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 
 .btn.btn-simple,
 .navbar .navbar-nav>a.btn.btn-simple {
-  color: #344675;
-  border-color: #344675;
+  /*color: #344675;
+  border-color: #344675;*/
   background: transparent;
 }
 

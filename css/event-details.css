@@ -1,12 +1,22 @@
+body{
+	background-color:#011638;
+}
+.highlight{
+	color: #ed254e;
+	border-color: #ed254e;
+}
 .clr{
-	background-color:#e14eca;
+	background-color:#25ced1;
 	/*background-color:#1d8cf8;*/
 	/*background-color:#25ced1;*/
 }
 #rule{
-	margin-top: 20px;
+	margin-top: 80px;
 	padding-left: 15px;
 	margin-bottom: 10px;
+}
+#footer{
+	background: #011638;
 }
 
 .rule-content{
@@ -18,6 +28,7 @@
 }
 .event_banner{
 	padding-top: 30px;
+	width: 100%;
 }
 .page-title{
 	display: none;
@@ -26,6 +37,9 @@
 	width: 100%;
 	text-align: center;
 	height: 5vh;
+}
+.heading{
+	font-size: 15px;
 }
 #title{
 	color: #e14eca;
@@ -66,6 +80,7 @@
 #first-div{
 	padding-top: 20vh;
 }
+
 @media (max-width: 786px)
 {
 	.order1{
@@ -82,6 +97,14 @@
 	}
 	#first-div{
 		padding-top: 10vh;
+	}
+	.regbtnwrapper{
+	/*width: 100%;*/
+	/*padding-left: 50%;*/
+	text-align: center;
+	}
+	.regbtn{
+	padding : 10px 40%;
 	}
 
 }
