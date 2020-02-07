@@ -94,9 +94,34 @@ body{
 #navigation{
 	background-color: #182f57;
 }
+.social-icon {
+  margin: 20px 0 20px 10px;
+  color: #ffffff;
+}
+
+
+
+.social {
+  background-color: #26547C;
+  color: #fff;
+  text-align: center;
+}
+
+.copyright {
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+}
+
 
 @media (max-width: 786px)
 {
+	.social-icon {
+    font-size: 2rem;
+  	}
+	.copyright {
+    font-size: 2rem;
+  	}
 	.order1{
 		order: 1;
 	}
