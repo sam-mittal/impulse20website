@@ -97,6 +97,7 @@ body{
 .social-icon {
   margin: 20px 0 20px 10px;
   color: #ffffff;
+  font-size: 1rem;
 }
 
 
@@ -117,10 +118,10 @@ body{
 @media (max-width: 786px)
 {
 	.social-icon {
-    font-size: 2rem;
+    font-size: 0.5rem;
   	}
 	.copyright {
-    font-size: 2rem;
+    font-size: 0.5rem;
   	}
 	.order1{
 		order: 1;
