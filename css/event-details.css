@@ -118,10 +118,10 @@ body{
 @media (max-width: 786px)
 {
 	.social-icon {
-    font-size: 0.5rem;
+    font-size: 1rem;
   	}
 	.copyright {
-    font-size: 0.5rem;
+    font-size: 1rem;
   	}
 	.order1{
 		order: 1;
