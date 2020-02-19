@@ -23,6 +23,12 @@ body{
 	padding-left: 15px;
 	margin-bottom: 10px;
 }
+#faq{
+	margin-top: 80px;
+	padding-left: 15px;
+	margin-bottom: 10px;
+
+}
 #footer{
 	background: #011638;
 }
@@ -52,12 +58,20 @@ body{
 .rule-text{
 	font-size: 15px;
 }
+.faq-text{
+	font-size: 15px;
+	margin-bottom: 15px;
+}
 #title{
 	color: #e14eca;
 	margin: 0;
 }
 .rule-heading{
 	padding-top: 0;
+}
+.faq-heading{
+	margin-bottom: 5px;
+	font-weight: 500;
 }
 .collapse-box{
 	margin-top: 10px;
