@@ -10,11 +10,20 @@ body{
 	color: #ed254e;
 	border-color: #ed254e;
 }
+.highlight1{
+	color: #25ced1;
+	border-color: #25ced1;
+}
+
 .highlight:hover,.highlight:active,.highlight:focus{
 	color:#ed254e;
 }
+
+.highlight1:hover,.highlight1:active,.highlight1:focus{
+	color:#25ced1;
+}
 .clr{
-	background-color: #6C9BDA;
+	background-color: #0d3c79;
 	/*background-color:#1d8cf8;*/
 	/*background-color:#25ced1;*/
 }
@@ -29,10 +38,24 @@ body{
 	margin-bottom: 20px;
 
 }
+#contact{
+	margin-top: 80px;
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
 #footer{
 	background: #011638;
 }
-
+.cnt{
+	margin-left: 10px;
+	color: white !important;
+	font-weight: 300 !important;
+	font-size: 15px !important;
+}
+.nmbr{
+	position: absolute;
+	left:20%;
+}
 .rule-content{
 	padding-left : 15px;
 	padding-right: 15px;
@@ -51,6 +74,9 @@ body{
 	width: 100%;
 	text-align: center;
 	height: 5vh;
+}
+.pd1{
+	margin-bottom: 20px;
 }
 .heading{
 	font-size: 18px;
@@ -173,8 +199,14 @@ body{
 	text-align: center;
 	}
 	.regbtn{
-	padding : 10px 40%;
+		width: 100%;
+		/*padding : 10px 40%;*/
+		text-align: center;
 	}
+	.nmbr{
+	position: absolute;
+	left:25%;
+}
 
 }
 
