@@ -14,19 +14,19 @@ body{
 	color:#ed254e;
 }
 .clr{
-	background-color:#25ced1;
+	background-color: #6C9BDA;
 	/*background-color:#1d8cf8;*/
 	/*background-color:#25ced1;*/
 }
 #rule{
 	margin-top: 80px;
 	padding-left: 15px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 #faq{
 	margin-top: 80px;
 	padding-left: 15px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 
 }
 #footer{
@@ -53,14 +53,22 @@ body{
 	height: 5vh;
 }
 .heading{
-	font-size: 16px;
+	font-size: 18px;
+	color: #25ced1;
 }
 .rule-text{
 	font-size: 15px;
+	color: white;
+	margin-bottom: 30px;
+}
+.rule-text-in{
+	font-size: 15px;
+	color: white;
+	margin-bottom: 15px;
 }
 .faq-text{
 	font-size: 15px;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 #title{
 	color: #e14eca;
@@ -113,6 +121,11 @@ body{
   color: #ffffff;
   font-size: 1rem;
 }
+.amn{
+	/*border-bottom: 1px dashed #FFFFFF;*/
+	/*color: #ed254e;*/
+	font-weight: 600;
+}
 
 
 
@@ -128,7 +141,9 @@ body{
   text-align: center;
 }
 
-
+.special{
+	font-weight: 500;
+}
 @media (max-width: 786px)
 {
 	.social-icon {
