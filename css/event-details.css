@@ -2,9 +2,12 @@ body{
 	background-color:#011638;
 }
 .logo{
-	width: 105px;
+	width: 30px;
 	height: 30px;
 	overflow: hidden;
+}
+.logo_text{
+	font-family: orbitron;
 }
 .highlight{
 	color: #ed254e;
@@ -14,13 +17,21 @@ body{
 	color: #25ced1;
 	border-color: #25ced1;
 }
-
-.highlight:hover,.highlight:active,.highlight:focus{
-	color:#ed254e;
+.highlight:hover{
+	background-color: #ed254e !important;
+	color:#ffffff;
 }
-
-.highlight1:hover,.highlight1:active,.highlight1:focus{
-	color:#25ced1;
+.highlight:active{
+	color : #ffffff;
+	background-color: transparent;
+}
+.highlight1:hover{
+	background-color: #25ced1 !important;
+	color:#ffffff;
+}
+.highlight1:active{
+	color : #ffffff;
+	background-color: transparent;
 }
 .clr{
 	background-color: #0d3c79;
@@ -47,14 +58,18 @@ body{
 	background: #011638;
 }
 .cnt{
+	display: inline-block;
 	margin-left: 10px;
+	
 	color: white !important;
 	font-weight: 300 !important;
 	font-size: 15px !important;
+	width: 20% ;
 }
-.nmbr{
-	position: absolute;
-	left:20%;
+.nmb{
+	color: white !important;
+	font-weight: 300 !important;
+	font-size: 15px !important;
 }
 .rule-content{
 	padding-left : 15px;
@@ -106,6 +121,7 @@ body{
 .faq-heading{
 	margin-bottom: 5px;
 	font-weight: 500;
+	text-transform: none !important;
 }
 .collapse-box{
 	margin-top: 10px;
@@ -127,6 +143,7 @@ body{
 
 .btn-color:hover{
 	margin-left: .5em;
+	background-color: #1d8cf8;
 }
 
 .r-body{
@@ -203,10 +220,9 @@ body{
 		/*padding : 10px 40%;*/
 		text-align: center;
 	}
-	.nmbr{
-	position: absolute;
-	left:35%;
-}
+	.cnt{
+		width: 30%;
+	}
 
 }
 
